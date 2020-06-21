@@ -1,0 +1,25 @@
+.Subjects {
+    min-height: 100vh;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)) ,url('../../assets/images/bg3.jpg');
+    background-size: cover;
+    background-position: center;
+    height: auto;
+}
+
+
+.Subjects nav{
+    padding-top:5rem;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+@media (max-width:750px){
+    .Subjects nav{
+        padding-top: 6rem;
+    }
+}

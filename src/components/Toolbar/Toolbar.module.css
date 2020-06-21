@@ -1,0 +1,43 @@
+.Toolbar{
+    position: fixed;
+    top:0;
+    width:100%;
+    /* height: 3rem; */
+    z-index: 500;
+    background-color: #000000;
+    transition: all 1s;
+}
+
+.Toolbar button{
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-top: -2rem;
+    margin-bottom: -12px;
+}
+.Logo{
+    padding: 0;
+}
+.Logo img{
+    width:150px;
+    padding-top:3px;
+    transition: ease-in 1s;
+    margin-bottom: 0;
+}
+
+.Toolbar div{
+    display: block;
+}
+
+.Logo img:hover{
+    cursor: pointer;
+}
+
+@media (min-width:750px){
+    .Toolbar{
+        display: none;
+    }
+}

@@ -1,0 +1,33 @@
+.Navbar{
+    /* background-color:yellow; */
+    position: fixed;
+    width:100%;
+    top:0;
+    z-index: 100;
+    /* box-shadow: 0px 8px 12px #444; */
+}
+
+
+.Navbar nav{
+    text-align: right;
+    box-sizing: border-box;
+    margin-right: 1rem;
+}
+
+.Logo img{
+    padding-top:5px;
+    position: absolute;
+    top:0;
+    left:1.5rem;
+    transition: ease-in 1s;
+}
+
+.Logo img:hover{
+    cursor: pointer;
+}
+
+@media (max-width:750px){
+    .Navbar{
+        display: none;
+    }
+}

@@ -1,0 +1,89 @@
+.Participant {
+    width:100%;
+    max-width: 700px;
+    margin:0.5rem auto;
+    /* background-color: black; */
+    display: inline-block;
+    color:#14A76C;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    border: 2px solid #14A76C;
+    /* position: relative; */
+    border-radius: 5px;
+    box-sizing: border-box;
+    position: relative;
+    transition: all 0.3s;
+    
+    
+}
+
+.Participant:hover{
+    background:#272727;
+    border: 2px solid #FF652F;    
+}
+
+.Participant:hover p{
+    color:#FF652F
+}
+.Participant:hover h1{
+    color:#FF652F
+}
+
+.Participant p{
+    font-size: 1rem;
+    margin:0;
+    padding:0.5rem;
+    display: inline-block;
+    width: 40%;
+}
+
+.Participant h1{
+    font-size: 1rem;
+    margin:0;
+    padding:0.5rem;
+    display: inline-block;
+    width: 20%;
+}
+
+.Participant:hover button{
+    cursor: pointer;
+    color:white;
+    background-color: #FF652F;
+    font-weight: bold;
+}
+.Participant button{
+    padding-top:2px;
+    outline:none;
+    background-color: transparent;
+    color:white;
+    background-color: #14A76C;
+    border-style: none;
+    font-size: 2rem;
+    margin-top:0;
+    /* text-align: right; */
+    /* z-index: 2; */
+    font-family: "linea-arrows-10";
+    /* padding:1px;
+    padding-left: 10px;   */
+    backface-visibility: hidden;
+    float: right;
+    position: relative;      
+}
+
+@media (max-width: 700px){
+    .Participant{
+        border: none;
+        margin: 0rem auto;
+        border-bottom: 2px solid #14A76C;
+        border-radius: 0;
+    }
+    .Participant:hover{
+        border: none;
+        border-bottom: 2px solid #14A76C;
+    }
+    .Participant button{
+        background-color: transparent;
+        color: #14A76C;
+
+    }
+}

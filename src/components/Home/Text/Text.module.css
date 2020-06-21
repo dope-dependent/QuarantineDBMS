@@ -1,0 +1,29 @@
+.Text {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+    font-family: 'Black Ops One', cursive;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    
+}
+
+.Header{
+    margin-top: 1rem;
+    font-size: 3rem;
+    transition: all 0.3s;
+    backface-visibility: hidden;
+}
+
+/* .Header:hover{
+    transform: skew(10deg,2deg);
+} */
+
+.Data{
+    /* font-family: 'B612', sans-serif; */
+    font-family: 'Balsamiq Sans', sans-serif;
+    font-size: 1.7rem;
+}

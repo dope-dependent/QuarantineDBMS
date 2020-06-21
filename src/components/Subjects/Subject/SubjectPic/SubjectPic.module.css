@@ -1,0 +1,9 @@
+.SubjectPic{
+    width:100%;
+    background-color: transparent;
+}
+
+.SubjectPic img{
+    width: 100%;
+    height: 104px;
+}

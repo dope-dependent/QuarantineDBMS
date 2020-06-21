@@ -1,0 +1,30 @@
+.ToolbarItems{
+    margin:0;
+}
+
+.ToolbarItems div{
+    display: inline-block;
+    width:200px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: 'Comfortaa', cursive;
+    background-color:black;
+    padding: 8px;
+    color: white;
+    box-sizing: border-box;
+    margin:auto 1em;
+    /* transition: all 1s; */
+}
+
+.ToolbarItems div:hover,
+.ToolbarItems div:active{
+    background-color: yellow;
+    color: black;
+}
+
+
+@media (max-width:470px){
+    .ToolbarItems div{
+        width:100px;
+    }
+}

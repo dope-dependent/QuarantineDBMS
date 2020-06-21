@@ -1,0 +1,40 @@
+.NavbarItem{
+    display: inline-block; 
+    /* font-family: 'Open Sans', sans-serif; */
+    /* font-family: 'Balsamiq Sans', cursive; */
+    font-family: 'Comfortaa', cursive;
+    text-transform: uppercase;
+    /* font-family: 'Varela Round', sans-serif; */
+    font-size: 1.1rem;     
+}
+
+.NavbarItem{
+    display: inline-block;
+    text-decoration: none;
+    /* text-transform: uppercase;     */
+    text-decoration: none;
+    color:white;
+    padding: 1.5rem 2rem 0.6rem 2rem;
+    margin:0 0.5rem;
+    box-sizing: border-box;
+    transition: all 0.5s;
+    letter-spacing: 0.5px;
+    border-bottom: 2px solid transparent;
+    /* backface-visibility: hidden; */
+    /* box-sizing: border-box; */
+    /* height: 3.2rem; */
+}
+
+.NavbarItem:hover,
+.NavbarItem:active{
+    color: yellow;
+    border-bottom: 2px solid yellow;
+}
+
+
+@media (max-width:950px){
+    .NavbarItem{
+        font-size: 1rem;
+        
+    }
+}
